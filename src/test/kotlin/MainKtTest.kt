@@ -66,6 +66,6 @@ class MainKtTest {
 
         val result = myPay(typeCard, amountTransfersInMonth, amountTransfer)
 
-        assertEquals("Ваш перевод на карту Maestro в сумме 7000 рублей будет с коммиссией 4220 рублей", result)
+        assertEquals("Ваш перевод на карту Maestro в сумме 7000 рублей будет с коммиссией 4200 рублей", result)
     }
 }
